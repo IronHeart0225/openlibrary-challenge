@@ -14,6 +14,7 @@ export const BooksList: React.FC<BooksListProps> = ({ books }) => {
             <th>Title</th>
             <th>Author</th>
             <th>Year</th>
+            <th>Pages</th>
           </tr>
         )}
       </thead>
@@ -23,6 +24,7 @@ export const BooksList: React.FC<BooksListProps> = ({ books }) => {
             <td>{book.title}</td>
             <td>{book.author_name}</td>
             <td>{book.first_publish_year}</td>
+            <td>{book.number_of_pages_median}</td>
           </tr>
         ))}
       </tbody>
