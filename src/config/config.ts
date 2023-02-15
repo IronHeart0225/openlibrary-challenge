@@ -1,3 +1,3 @@
 export default {
-  SEARCH_API: "http://openlibrary.org/search.json?q=",
+  SEARCH_API: "https://openlibrary.org/search.json?q=",
 };
